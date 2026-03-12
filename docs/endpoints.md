@@ -20,6 +20,30 @@ GET https://api.hireremote.ph/api/jobs
 
 ---
 
+## Response Status Codes
+
+```
+200 OK
+```
+Request completed successfully.
+
+```
+400 Bad Request
+```
+The request was invalid or missing required parameters.
+
+```
+401 Unauthorized
+```
+Authentication is required or failed.
+
+```
+500 Internal Server Error
+```
+An unexpected error occurred on the server.
+
+---
+
 ## Retrieve Jobs
 
 ```
