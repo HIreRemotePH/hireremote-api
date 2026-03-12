@@ -27,3 +27,22 @@ The HireRemote API will support integrations with:
 - HR platforms
 - Remote hiring marketplaces
 - Recruitment automation tools
+
+## Example Endpoint
+
+Example request:
+
+GET /api/jobs?location=philippines&remote=true
+
+Example response:
+
+{
+  "jobs": [
+    {
+      "title": "Remote Software Engineer",
+      "company": "Global Tech Inc",
+      "location": "Remote",
+      "salary_range": "$70,000 - $100,000"
+    }
+  ]
+}
